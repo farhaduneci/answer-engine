@@ -1,0 +1,15 @@
+[project]
+name = "answerengine"
+version = "0.1.0"
+description = "A simple answer engine test project leveraging PydanticAI for educational purposes."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "environs>=11.2.1",
+    "fastapi[standard]>=0.115.6",
+    "groq>=0.13.0",
+    "logfire>=2.7.1",
+    "pydantic-ai-slim[groq,logfire,openai]>=0.0.12",
+    "pydantic>=2.10.3",
+    "tavily-python>=0.5.0",
+]
