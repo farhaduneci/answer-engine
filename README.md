@@ -2,7 +2,15 @@
 
 This is a simple answer engine test project leveraging [PydanticAI](https://ai.pydantic.dev) for educational purposes.
 
-Pydantic AI agent answers questions using the search tool provided to it to search the web using [Tavily](https://tavily.com) and infer the answer by [Groq](https://groq.com) models.
+### ⚙️ What is an Answer Engine?
+
+An answer engine is a tool designed to give you direct, detailed answers to your questions. By searching the web and synthesizing information into clear, up-to-date responses. Unlike traditional search engines, which make you sift through a list of links, this system delivers the insights you’re looking for in a single, easy-to-read response.
+
+An example of a great answer engine is [PerplexityAI](https://perplexity.ai).
+
+### 🤖 How does it work?
+
+Pydantic AI agent answers questions using the search tool provided to it to search the web using [Tavily](https://tavily.com) and infer the answer by LLM models.
 
 ## 🚀 Usage
 
